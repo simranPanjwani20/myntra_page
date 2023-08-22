@@ -19,16 +19,16 @@ function Navbar(props) {
         <img src={logo} alt="Myntra Logo" />
       </div>
       <ul className="nav-links">
-        <li><a href="#">MEN</a></li>
-        <li><a href="#">WOMEN</a></li>
-        <li><a href="#">KIDS</a></li>
-        <li><a href="#">HOME & LIVING</a></li>
-        <li><a href="#">OFFERS</a></li>
+        <li><a >MEN</a></li>
+        <li><a >WOMEN</a></li>
+        <li><a >KIDS</a></li>
+        <li><a >HOME & LIVING</a></li>
+        <li><a >OFFERS</a></li>
       </ul>
        <SearchBar setfilteredData={setfilteredData}/>
       <div className="user-actions">
-        <a href="#">Profile</a>
-        <a href="#">Wishlist</a>
+        <a >Profile</a>
+        <a >Wishlist</a>
         <a className='bagbtn' onClick={toggleBag}>Bag</a>
         {isBagoverOpen && <BagPopover/>}
       </div>
