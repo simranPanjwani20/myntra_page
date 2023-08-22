@@ -1,0 +1,39 @@
+.bag-popover {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color:rgb(255, 243, 245);
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px 20px;
+  }
+  .bag-popover h4{
+    margin-top: 0;
+  }
+
+.remove-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px;
+  }
+  
+  .remove-button:hover {
+    background-color: #cc0000;
+  }
+  .bagContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+    .bag-popover{
+      z-index: 10;
+      top: 11%;
+    }
+  }

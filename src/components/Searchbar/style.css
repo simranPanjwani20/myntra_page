@@ -1,0 +1,16 @@
+.search:valid {
+    padding: 12px 15px;
+    border: none;
+    width:480px;
+    border-radius: 5px;
+    background: #f5f5f6;
+  }
+  .search:focus{
+    border: gray solid 1px;
+    background-color: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    .search:valid {
+      width:auto;
+    }
+  }

@@ -1,0 +1,18 @@
+.filterTitle{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 8px 0;
+}
+.filterName{
+    font-size: 14px;
+    color: rgb(84, 81, 81);
+    padding-bottom: 4px;
+}
+.filterValues{
+  border-bottom: solid 1px darkgrey;
+  cursor: pointer;
+}
+.filterName:hover{
+  color: rgb(249, 17, 172);
+}

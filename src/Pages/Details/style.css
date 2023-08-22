@@ -1,0 +1,237 @@
+.specificProduct{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.specificProductImg{
+    flex: 0.6;
+    padding: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+.specificProductDetail{
+    flex: 0.4;
+  margin-left: 20px;
+  padding: 20px;
+    /* background-color: aquamarine; */
+}
+.imgCon1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.imgCon2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.imgCon1 img{
+    flex: 1;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+.imgCon2 img{
+    flex: 1;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+.productTitle{
+    color: #282c3f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.specificProductDesc{
+    color: #535665;
+    padding: 5px 20px 14px 0;
+    font-size: 18px;
+    opacity: .8;
+    font-weight: 400;
+}
+.ratingCont{
+    width: auto;
+    border-bottom: 1px solid #d4d5d9;
+    padding: 10px 0;
+}
+.ratingBox{
+    width: fit-content;
+    border: 1px solid #eaeaec;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #282c3f;
+    padding: 8px;
+}
+.separator{
+    color: #eaeaec;
+    padding: 0 2px;
+}
+.ratingCount{
+    font-weight: 400;
+    color: #535766;
+}
+.specificdiscount{
+    color: #696e79;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.specificPrice{
+    color: #282c3f;
+    margin-right: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+}
+.MRP{
+    opacity: .8;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #282c3f;
+    margin-right: 4px;
+}
+.specificstrikedPrice{
+    text-decoration: line-through;
+    opacity: .8;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #282c3f;
+    margin-right: 12px;
+}
+.specificDiscountPrice{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: #ff905a;
+}
+.taxInfo{
+    color: #03a685;
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+    margin: 5px 10px 0 0;
+    padding: 10px 0;
+}
+.sizeCont{
+    margin: 10px 0 24px;
+}
+.sizeTitle{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+}
+.sizeChart{
+    margin-left: 30px;
+    color: #ff3e6c;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sizeButtons{
+    display: flex;
+    flex-direction: row;
+}
+.btns{
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #bfc0c6;
+  color: #282c3f;
+  padding: 15px 18px;
+  border-radius: 50%; 
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.saveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+.bagBtn{
+    padding: 15px 85px;
+   width: fit-content;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.bagBtn:hover{
+    background-color: #f06384;
+}
+.wishlistBtn{
+    padding: 15px 35px;
+   width: fit-content;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #d8cbce;
+    color: #151515;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.wished{
+    background-color: #151515;
+    color: white;
+}
+.sizeClicked{
+    border: 1px solid #dc13a9;
+    color: #dc13a9;
+}
+@media screen and (max-width: 768px) {
+    .specificProduct{
+        padding-top: 20px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .bagBtn{
+        padding: 10px 45px;
+       width: fit-content;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: #ff3e6c;
+        border: 1px solid #ff3e6c;
+        color: #fff;
+        margin-top:4px;
+        font-size: 8px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    .wishlistBtn{
+        padding: 10px 45px;
+       width: fit-content;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid #d8cbce;
+        color: #151515;
+        margin-top:4px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+  }
