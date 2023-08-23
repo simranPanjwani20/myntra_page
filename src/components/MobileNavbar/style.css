@@ -5,7 +5,7 @@
     justify-content: space-evenly;
     font-size: 12px;
     padding: 4px 2px;
-    overflow: hiddenz;
+    overflow-x:hidden;
 }
 .mobileSearch{
     width: fit-content;
