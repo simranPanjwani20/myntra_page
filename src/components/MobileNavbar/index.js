@@ -15,7 +15,7 @@ function MobileNavbar(props) {
 
   return (
     <nav className="MobileNavbar">
-      <div className="logo">
+      <div className="moblogo">
         <img src={logo} alt="Myntra Logo" />
       </div>
       <ul className="Mobilenav-links">
