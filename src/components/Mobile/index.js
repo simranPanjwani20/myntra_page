@@ -33,7 +33,7 @@ function MobileView() {
     setfilteredData(data)
   }
   return (
-    <>
+    <div className='mobProductPage'>
     <MobileNavbar setfilteredData={setfilteredData}/>
     <div className="path">
      <span className='pathName'>Home / </span>
@@ -71,7 +71,7 @@ function MobileView() {
         </div>
      </div>
 
-    </>
+    </div>
    
   );
 }

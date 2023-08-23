@@ -1,3 +1,6 @@
 .mobileProd{
     padding: 6% 2%;
 }
+.mobProductPage{
+    overflow-x: hidden;
+}
