@@ -26,7 +26,7 @@ function MobileNavbar(props) {
        <SearchBar setfilteredData={setfilteredData}/>
       </div>
       <div className="user-actions">
-        <a className='bagbtn' onClick={toggleBag}>Bag</a>
+        <a className='mobBag' onClick={toggleBag}>Bag</a>
         {isBagoverOpen && <BagPopover/>}
       </div>
     </nav>
