@@ -146,7 +146,7 @@ function Details() {
          <div className="saveBtn">
          <div className="bagBtn" onClick={handleBag}>
              {
-                 click?"ADDED TO BAG":'ADD TO BAG'
+                 click?"ADDED TO BAG +More":'ADD TO BAG'
              }
             
          </div>
@@ -243,7 +243,7 @@ function Details() {
         <div className="saveBtn">
         <div className="bagBtn" onClick={handleBag}>
             {
-                click?"ADDED TO BAG":'ADD TO BAG'
+                click?"ADDED TO BAG + ":'ADD TO BAG'
             }
            
         </div>
