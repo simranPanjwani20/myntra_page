@@ -234,4 +234,11 @@
         font-size: 8px;
         border-radius: 5px;
     }
+    .specificPrice, .MRP, .specificstrikedPrice, .specificDiscountPrice{
+        font-size: 18px;
+    }
+    .specificPrice, .specificstrikedPrice{
+        margin-right: 8px;
+    }
+
   }

@@ -12,5 +12,6 @@
   @media screen and (max-width: 768px) {
     .search:valid {
       width:auto;
+      padding: 10px 5px;
     }
   }
